@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4swvjqokx003"]
+
+[ext_resource type="Script" uid="uid://bhpxplc6ur7ud" path="res://Old/VoiTry.cs" id="1_okfpj"]
+
+[node name="VoiTry" type="Node2D"]
+script = ExtResource("1_okfpj")

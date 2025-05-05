@@ -1,0 +1,9 @@
+[submodule "Voi"]
+	path = Voi
+	url = https://github.com/IanBadcoe/Voi.git
+[submodule "Godot_Util"]
+	path = Godot_Util
+	url = https://github.com/IanBadcoe/Godot_Util.git
+[submodule "Godot_SubD"]
+	path = Godot_SubD
+	url = https://github.com/IanBadcoe/Godot_SubD.git
