@@ -7,3 +7,6 @@
 [submodule "Godot_SubD"]
 	path = Godot_SubD
 	url = https://github.com/IanBadcoe/Godot_SubD.git
+[submodule "Geom_Util"]
+	path = Geom_Util
+	url = https://github.com/IanBadcoe/Geom_Util.git
