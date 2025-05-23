@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3oeyymuprfyr"]
+
+[ext_resource type="Script" uid="uid://beduq5wxadvkj" path="res://DelaunayVisualise.cs" id="1_tusvj"]
+
+[node name="DelaunayVisualise" type="Node3D"]
+script = ExtResource("1_tusvj")
+
+[node name="Camera" type="Camera3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(0.57089, 0.367174, -0.734348, 0, 0.894427, 0.447214, 0.821027, -0.25531, 0.51062, -8.21027, 5, 5.7089)
+
+[node name="DirectionalLight" type="DirectionalLight3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(-0.016418, -0.30103, 0.953474, 0, 0.953602, 0.30107, -0.999865, 0.00494297, -0.0156562, 20, 10, 5)

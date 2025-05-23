@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ddekrcis826hr"]
+
+[resource]
+albedo_color = Color(0.23, 1, 0.4225, 1)
+roughness = 0.3
+emission = Color(0.60845, 0.86, 0.5246, 1)
+ao_enabled = true
+ao_light_affect = 0.5

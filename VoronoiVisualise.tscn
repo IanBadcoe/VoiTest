@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://byuer6ni40miy"]
+
+[ext_resource type="Script" uid="uid://dul7neyln5m3v" path="res://VoronoiVisualise.cs" id="1_6tc43"]
+
+[node name="VoronoiVisualise" type="Node3D"]
+script = ExtResource("1_6tc43")
+
+[node name="Camera" type="Camera3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 0.894427, 0.447214, 0, -0.447214, 0.894427, 0, 4.44484, 8.88969)
+
+[node name="DirectionalLight" type="DirectionalLight3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(0.970142, -0.199889, 0.137361, 0, 0.566352, 0.824164, -0.242536, -0.799556, 0.549442, 5, 30, 20)
+
+[node name="TurntablePivot" type="Node3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(0.90921, 0, -0.416213, 0, 1, 0, 0.416213, 0, 0.90921, 0, 0, 0)
+
+[node name="Turntable" type="Node3D" parent="TurntablePivot"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.05335, -5.00867, -5.03667)
